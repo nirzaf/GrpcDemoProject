@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcDemoProject", "GrpcDemoProject.csproj", "{C49D0CB1-5526-42B6-981D-FF005CAE5637}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcDemoProject", "GrpcDemoProject.csproj", "{C49D0CB1-5526-42B6-981D-FF005CAE5637}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "server", "advanced\sqrt\server\server.csproj", "{B79C1C9C-7AFA-4A37-B6E0-E64EEA9BABF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C49D0CB1-5526-42B6-981D-FF005CAE5637}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C49D0CB1-5526-42B6-981D-FF005CAE5637}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C49D0CB1-5526-42B6-981D-FF005CAE5637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B79C1C9C-7AFA-4A37-B6E0-E64EEA9BABF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B79C1C9C-7AFA-4A37-B6E0-E64EEA9BABF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B79C1C9C-7AFA-4A37-B6E0-E64EEA9BABF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B79C1C9C-7AFA-4A37-B6E0-E64EEA9BABF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
